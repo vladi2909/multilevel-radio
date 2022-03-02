@@ -14,29 +14,33 @@
         <ul class="characteristics__list">
             <li class="characteristics__list-item">
                 <span class="characteristics__item-title">В стрипе:</span>
-                <input id="1" type="radio" name="1" value="Да">
-                <label for="1">
-                    <span>Да</span>
-                </label>
-
-                <input id="1" type="radio" name="1" value="Нет">
-                <label for="1">
-                    <span>Нет</span>
-                </label>
+                <input class="characteristics__input" type="radio" name="1" id="a1" value="Да">
+                <label class="characteristics__item-variant" for="a1">Да</label>
+                <input class="characteristics__input" type="radio" name="1" id="a2" value="Нет">
+                <label class="characteristics__item-variant" for="a2">Нет</label>
             </li>
 
-            <li class="characteristics__list-item">
-                <span class="characteristics__item-title">В стрипе:</span>
-                <input id="2" type="radio" name="2" value="Да">
-                <label for="2">
-                    <span>Да</span>
-                </label>
-
-                <input id="2" type="radio" name="2" value="Нет">
-                <label for="2">
-                    <span>Нет</span>
-                </label>
+            <li class="characteristics__list-item" style="display: none;">
+                <span class="characteristics__title">ТЕСТОВЫЙ ЦВЕТ</span>
             </li>
+
+            <li class="characteristics__list-item" style="display: none;">
+                <span class="characteristics__title">Стерильность:</span>
+            </li>
+
+            <li class="characteristics__list-item" style="display: none;">
+                <span class="characteristics__title">
+                    Фильтр:
+                </span>
+            </li>
+
+            <li class="characteristics__list-item" style="display: none;">
+                <span class="characteristics__title">
+                    Фильтр2:
+                </span>
+            </li>
+
+
         </ul>
 
         <button class="characteristics__submit">Применить</button>
@@ -45,6 +49,10 @@
     
     
 
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
 </html>

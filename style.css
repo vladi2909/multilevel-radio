@@ -3,5 +3,9 @@ ul {
 }
 
 input {
-    appearance: none;
+    /* appearance: none; */
+}
+
+.characteristics__list-item {
+    margin: 10px 0;
 }
